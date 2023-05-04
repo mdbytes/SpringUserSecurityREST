@@ -1,4 +1,4 @@
-package com.mdbytes.app.controller;
+package com.mdbytes.app.rest;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
