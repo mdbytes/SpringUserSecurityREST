@@ -1,7 +1,7 @@
-package com.mdbytes.app.security;
+package com.mdbytes.app.security.service;
 
-import com.mdbytes.app.dao.TokenRepository;
-import com.mdbytes.app.entity.Token;
+import com.mdbytes.app.security.repository.TokenRepository;
+import com.mdbytes.app.security.entity.Token;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

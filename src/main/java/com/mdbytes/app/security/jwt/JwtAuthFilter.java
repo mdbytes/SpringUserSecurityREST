@@ -1,6 +1,7 @@
-package com.mdbytes.app.security;
+package com.mdbytes.app.security.jwt;
 
-import com.mdbytes.app.dao.TokenRepository;
+import com.mdbytes.app.security.service.JwtService;
+import com.mdbytes.app.security.repository.TokenRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.mdbytes.app.rest;
+package com.mdbytes.app.security.service;
 
 
 import lombok.AllArgsConstructor;

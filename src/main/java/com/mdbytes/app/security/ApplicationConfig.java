@@ -1,6 +1,6 @@
 package com.mdbytes.app.security;
 
-import com.mdbytes.app.dao.UserRepository;
+import com.mdbytes.app.security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

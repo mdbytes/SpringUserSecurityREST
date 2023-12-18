@@ -1,5 +1,9 @@
-package com.mdbytes.app.rest;
+package com.mdbytes.app.security.controller;
 
+import com.mdbytes.app.security.service.AuthenticationRequest;
+import com.mdbytes.app.security.service.AuthenticationResponse;
+import com.mdbytes.app.security.service.AuthenticationService;
+import com.mdbytes.app.security.service.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

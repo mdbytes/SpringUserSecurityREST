@@ -1,4 +1,4 @@
-package com.mdbytes.app.entity;
+package com.mdbytes.app.security.entity;
 
 
 import jakarta.persistence.*;

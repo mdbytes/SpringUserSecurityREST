@@ -1,12 +1,11 @@
-package com.mdbytes.app.rest;
+package com.mdbytes.app.security.service;
 
-import com.mdbytes.app.dao.TokenRepository;
-import com.mdbytes.app.dao.UserRepository;
-import com.mdbytes.app.entity.Role;
-import com.mdbytes.app.entity.Token;
-import com.mdbytes.app.entity.TokenType;
-import com.mdbytes.app.entity.User;
-import com.mdbytes.app.security.JwtService;
+import com.mdbytes.app.security.repository.TokenRepository;
+import com.mdbytes.app.security.repository.UserRepository;
+import com.mdbytes.app.security.entity.Role;
+import com.mdbytes.app.security.entity.Token;
+import com.mdbytes.app.security.entity.TokenType;
+import com.mdbytes.app.security.entity.User;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

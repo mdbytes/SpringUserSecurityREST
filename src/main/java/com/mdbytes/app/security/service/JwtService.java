@@ -1,4 +1,4 @@
-package com.mdbytes.app.security;
+package com.mdbytes.app.security.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

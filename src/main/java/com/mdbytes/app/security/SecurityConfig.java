@@ -1,5 +1,6 @@
 package com.mdbytes.app.security;
 
+import com.mdbytes.app.security.jwt.JwtAuthFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

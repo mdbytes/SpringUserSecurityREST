@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/jwt_security
     username: marty
     password: iv!\CkQ=84AXMQ-
-
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create-drop

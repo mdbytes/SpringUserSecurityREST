@@ -1,6 +1,6 @@
-package com.mdbytes.app.dao;
+package com.mdbytes.app.security.repository;
 
-import com.mdbytes.app.entity.Token;
+import com.mdbytes.app.security.entity.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

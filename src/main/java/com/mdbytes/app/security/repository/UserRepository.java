@@ -1,6 +1,6 @@
-package com.mdbytes.app.dao;
+package com.mdbytes.app.security.repository;
 
-import com.mdbytes.app.entity.User;
+import com.mdbytes.app.security.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
